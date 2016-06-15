@@ -1,7 +1,69 @@
-<html>
-<head>
-<title>Test HTML Page</title>
-</head>
-<body>Test 1, 2, 3. Test.</body>
-</html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Geranai Yoda's static web pages</title>
+        <meta name="description" content="Geranai Yoda's static web pages">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">h1.title</h1>
+                <nav>
+                    <ul>
+                        <li><a href="eve-uni-wars.html">E-UNI Wars</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <header>
+                        <h1>EVE University Wars</h1>
+                        <p>My first public page is to keep track of current Unistas deaths and kills from alliances we are at war with</p>
+                        <p>Hopefully, this will make it easier for Unistas to be aware of systems to avoid and fly safer.</p>
+                    </header>
+                    <section>
+                        <h2>Why EVE University Wars?</h2>
+                        <p>Two reasons: first, I still see many newbros dying at the hands of war targets in hisec, losing their hard hearned stuff. Second, I wanted to (re)learn EVE API and have an excuse to mess around with Python :)</p>
+                    </section>
+                    <footer>
+                        <h3>Please note</h3>
+                        <p>EVE University Wars cannot keep track of War Targets movements, it can only congregate public information available to make it easier to "read" what's happening in space. As usual, if you're moving stuff, please <a href="http://wiki.eveuniversity.org/Creating_an_Alt_Hauler">use an hauler alt</a> and remember to <a href="http://wiki.eveuniversity.org/Plex_Tanking#Plex_Tanking">plex tank</a> it's ship.</p>
+                    </footer>
+                </article>
+
+                <aside>
+                    <h3>Side note</h3>
+                    <p>More projects will be coming as soon as I get to work on them :)</p>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>footer</h3>
+            </footer>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
